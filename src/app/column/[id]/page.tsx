@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { columnDetails } from "@/data/columnDetails";
-import ColumnDetail from "@/pages/column/page";
+import ColumnDetail from "@/components/ColumnDetail";
 
 export default async function ColumnDetailPage({
   params,
